@@ -44,6 +44,26 @@ This Power BI project presents a comprehensive sales analysis and forecasting da
 
 ---
 
+## Key Business Insights
+- Tampa store led all locations in revenue, generating over $240K in H1.
+- Morning hours (6–11 AM) accounted for more than 56% of total sales, with peak order size observed around 8–10 AM.
+- Davy Jones’ Organic Hot Chocolate (Large) was the top-earning product, while Crow’s Nest Croissant was the most frequently purchased.
+- The FY 2023 sales forecast projects over $1.41M in total revenue, based on current daily trends.
+- The infographic layout and dynamic DAX logic enable quick drilldowns by store, category, and time of day for deeper decision-making.
+
+---
+
+## Data Model
+The report is powered by a clean star schema optimized for performance and clarity
+
+- Kraken_Koffee_Fact	           :Fact table with transactional data: sales, time, store, product
+- Store_Dim	                     :Store metadata, location, ID
+- Product_Dim	                   :Product details, category, type, ID
+- Date	                         :Standard calendar dimension used for time intelligence
+- Forecast Date Table	           :Custom date table supporting forecast visuals and line plots
+
+---
+
 ## DAX Measures Explained
 
 This project relies heavily on DAX to drive dynamic logic, product ranking, visual formatting, and forecasting. Below is how each group of DAX measures adds value to the report:
@@ -80,6 +100,15 @@ This project relies heavily on DAX to drive dynamic logic, product ranking, visu
 - **`Forecast`**: Main measure used to estimate FY 2023 sales based on trends.
 - **`Forecast Label`**: Displays final projected sales cleanly on KPI cards.
 - **`Forecast Marker`**: Used to highlight December data point in forecast line visuals.
+
+---
+
+## Why This Matters
+- Retail chains rely heavily on time-based and product-level insights to optimize inventory, staffing, and promotions. This dashboard:
+- Provides time series forecasting to anticipate full-year sales performance
+- Identifies high-performing products and hours to inform marketing and store operations
+- Enables store comparisons and product mix analysis at a glance
+- Demonstrates strong data modeling, DAX, and Power BI storytelling skills, suitable for business reporting and executive decision support
 
 ---
 
