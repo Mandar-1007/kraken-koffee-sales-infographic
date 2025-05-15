@@ -2,6 +2,10 @@
 
 This Power BI project presents a comprehensive sales analysis and forecasting dashboard for Kraken Koffee — a fictional Florida-based coffee chain. The infographic-style report visualizes half-year (Jan–Jun 2023) performance across store locations, product categories, time of day, and transaction patterns. It also includes a full-year sales forecast powered by advanced DAX measures.
 
+
+![image](https://github.com/user-attachments/assets/409e8380-8d5d-4cb5-b69a-a6187eae0bad)
+
+
 ---
 
 ## Project Objectives
